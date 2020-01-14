@@ -1,5 +1,7 @@
 @import "_variables.scss";
 @import "_usergallery.scss";
+@import "_fonts.scss";
+
 html {
   margin: 0;
   padding: 0;
@@ -11,24 +13,19 @@ html {
   } */
 }
 body {
-  background-color: color(black);
+  background-color: color(primary);
 }
+
+
 .header {
   position: relative;
   height: 100vh;
-
-  // background-color: rgba(color(primary), 1);
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(color(primary), 0.5),
-      rgba(color(primary-light), 0.5)
-    ),
-    url(../media/headphones-bg.jpg);
+  background-color: rgba(color(primary-light), 1);
   background-position: top;
   background-size: cover;
 
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 8vh, 0% 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0% 100%);
+  clip-path: polygon(0 10%, 100% 0, 100% 81%, 0 91%);
 
   .text-box {
     position: absolute;
@@ -36,13 +33,14 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    //skew text//
   }
   .heading-primary {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
+    color: black;
     text-transform: uppercase;
     width: 100vw;
     text-align: center;
@@ -54,7 +52,7 @@ body {
 
     .heading-primary-main {
       font-size: 4rem;
-      text-shadow: 3px 3px #333;
+      text-shadow: 3px 3px white;
       width: 80vw;
       letter-spacing: 1rem;
       text-align: center;

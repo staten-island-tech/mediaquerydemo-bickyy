@@ -85,6 +85,10 @@
 }
 
 html {
+  font-family: 'Public Sans', sans-serif;
+}
+
+html {
   margin: 0;
   padding: 0;
   font-size: 62.5%;
@@ -97,18 +101,17 @@ html {
 }
 
 body {
-  background-color: #0b0c10;
+  background-color: #fdfdd4;
 }
 
 .header {
   position: relative;
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(69, 162, 158, 0.5)), to(rgba(102, 252, 241, 0.5))), url(../media/headphones-bg.jpg);
-  background-image: linear-gradient(to right bottom, rgba(69, 162, 158, 0.5), rgba(102, 252, 241, 0.5)), url(../media/headphones-bg.jpg);
+  background-color: #9ae4df;
   background-position: top;
   background-size: cover;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 8vh, 0% 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0% 100%);
+  clip-path: polygon(0 10%, 100% 0, 100% 81%, 0 91%);
 }
 
 .header .text-box {
@@ -134,7 +137,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   width: 100vw;
   text-align: center;
@@ -149,7 +152,7 @@ body {
 
 .header .heading-primary .heading-primary-main {
   font-size: 4rem;
-  text-shadow: 3px 3px #333;
+  text-shadow: 3px 3px white;
   width: 80vw;
   letter-spacing: 1rem;
   text-align: center;
