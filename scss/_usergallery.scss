@@ -5,15 +5,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     @include laptop{
-        height: 90vh;
+        height: 100vh;
     }
 }
 
 .user-gallery-header {
     font-size: 2rem;
-    color: white; //use variable instead// 
+    color: color(primary-light); 
     text-transform: uppercase;
+   
     @include tablet {
         font-size: 3rem;
     }
@@ -32,6 +34,43 @@
     justify-content: space-around; //whatever the size (100 rem) it removes the space around the pic which is 30 rem each of 3 photos and the last 10 is spaced out)//
     align-items: center;
     margin: 0 auto;
+
+
+    .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-back {
+    background-color: lightblue;
+    color: color(primary);
+    font-size: 200%;
+    transform: rotateY(180deg);    
+    border-radius: 8rem 8rem 8rem 0 ; 
+  }
+
     @include laptop {
         height: 60%;
         width: 90%;
@@ -44,5 +83,9 @@
             height: 30rem;
             width: auto;
         }
+    }
+    .user-gallery-image {
+        border-radius: 8rem 8rem 8rem 0 ; 
+        margin: 3rem;
     }
 }

@@ -3,11 +3,8 @@
 @import "_fonts.scss";
 
 html {
-  margin: 0;
-  padding: 0;
-  font-size: 62.5%;
+  font-size: 55%;
   box-sizing: border-box;
-  font-family: "Josefin Sans", sans-serif;
   /* @include desktop {
     font-size: 70%;
   } */
@@ -20,70 +17,61 @@ body {
 .header {
   position: relative;
   height: 100vh;
+  background-image: linear-gradient(to bottom right, color(primary-light), color(black));
   background-color: rgba(color(primary-light), 1);
-  background-position: top;
-  background-size: cover;
+  clip-path: polygon(4% 6%, 96% 14%, 96% 81%, 4% 74%);
+  // background-position: top;
+  // background-size: cover;
+}
 
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 8vh, 0% 100%);
-  clip-path: polygon(0 10%, 100% 0, 100% 81%, 0 91%);
+  //the space the first header takes 
 
-  .text-box {
+  .header-image {
+    width: 100%;
+    transform: translate(0%, 10%);
+    clip-path: polygon(7% 0%, 93% 9%, 93% 87%, 7% 79%);
+  }
+  
+    .text-box {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    //skew text//
+    //where the text all goes 
   }
   .heading-primary {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     color: black;
-    text-transform: uppercase;
     width: 100vw;
     text-align: center;
-    //text-shadow: 3px 3px 8px #111;
-    font-weight: 700;
-    animation-name: slide-in;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
+    //all the transformations for text
 
     .heading-primary-main {
       font-size: 4rem;
-      text-shadow: 3px 3px white;
-      width: 80vw;
-      letter-spacing: 1rem;
-      text-align: center;
-      margin: 0 auto;
+      text-shadow: .15rem .15rem color(white);
+      letter-spacing: .5rem;
+      padding: 1rem;
       @include tablet {
         font-size: 6rem;
         letter-spacing: 1.8rem;
       }
       @include laptop {
         font-size: 10rem;
-        letter-spacing: 2.2rem;
+        letter-spacing: 1rem;
       }
     }
+    //where NEW YORK goes 
     .heading-primary-sub {
       font-size: 1.5rem;
-      width: 80vw;
-      margin: 0 auto;
-      text-align: center;
-      color: white;
+      text-shadow: .15rem .15rem color(black);
+      color: color(white);
       @include laptop {
         font-size: 3rem;
+      //where explore the city goes 
       }
     }
   }
-}
 
-@keyframes slide-in {
-  0% {
-    transform: translateX(-200rem);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
+
