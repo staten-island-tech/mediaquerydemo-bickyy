@@ -17,20 +17,23 @@ body {
 .header {
   position: relative;
   height: 100vh;
-  background-image: linear-gradient(to bottom right, color(primary-light), color(black));
-  background-color: rgba(color(primary-light), 1);
-  clip-path: polygon(4% 6%, 96% 12%, 96% 69%, 4% 63%);
   // clip-path: polygon(0% 5%, 100% 12%, 100% 69%, 0% 63%);
   // background-position: top;
   // background-size: cover;
 } 
 
+  .box-one {
+    background-image: linear-gradient(to bottom right, color(primary-light), color(black));
+    background-color: rgba(color(primary-light), 1);
+    clip-path: polygon(4% 6%, 96% 12%, 96% 69%, 4% 63%);
+    height: 100vh;
+  }
   //the space the first header takes 
 
   .header-image {
     width: 100%;
     transform: translate(0%, 10%);
-    clip-path: polygon(7% 0%, 93% 9%, 93% 87%, 7% 79%);
+    clip-path: polygon(7% 1%, 93% 9%, 93% 87%, 7% 79%);
     // clip-path: polygon(0% 0%, 100% 10%, 100% 87%, 0% 79%);
   }
   
@@ -73,6 +76,11 @@ body {
         font-size: 3rem;
       //where explore the city goes 
       }
+    }
+    .bottom-header {
+      background-color: rgba(color(primary-light), 1);
+      clip-path: polygon(0 69%, 100% 86%, 100% 100%, 0% 100%);
+      height: 100vh;
     }
   }
 
