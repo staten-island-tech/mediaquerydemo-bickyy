@@ -155,16 +155,16 @@ body {
   background-image: -webkit-gradient(linear, left top, right bottom, from(#235587), to(#0b0c10));
   background-image: linear-gradient(to bottom right, #235587, #0b0c10);
   background-color: #235587;
-  -webkit-clip-path: polygon(0% 6%, 100% 14%, 100% 84%, 0% 78%);
-          clip-path: polygon(0% 6%, 100% 14%, 100% 84%, 0% 78%);
+  -webkit-clip-path: polygon(4% 6%, 96% 12%, 96% 69%, 4% 63%);
+          clip-path: polygon(4% 6%, 96% 12%, 96% 69%, 4% 63%);
 }
 
 .header-image {
   width: 100%;
   -webkit-transform: translate(0%, 10%);
           transform: translate(0%, 10%);
-  -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 87%, 0% 79%);
-          clip-path: polygon(0% 0%, 100% 10%, 100% 87%, 0% 79%);
+  -webkit-clip-path: polygon(7% 0%, 93% 9%, 93% 87%, 7% 79%);
+          clip-path: polygon(7% 0%, 93% 9%, 93% 87%, 7% 79%);
 }
 
 .text-box {
