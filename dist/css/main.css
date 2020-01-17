@@ -130,11 +130,40 @@
 
 .user-gallery-gallery .user-gallery-image {
   border-radius: 8rem 8rem 8rem 0;
-  margin: 3rem;
+  width: 30rem;
+  height: 30rem;
 }
 
 html {
   font-family: 'Public Sans', sans-serif;
+}
+
+.food-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+@media (min-width: 900px) {
+  .food-gallery {
+    height: 100vh;
+  }
+}
+
+.food-gallery-header {
+  font-size: 5rem;
+  color: #235587;
 }
 
 html {
@@ -158,17 +187,28 @@ body {
   background-image: -webkit-gradient(linear, left top, right bottom, from(#235587), to(#0b0c10));
   background-image: linear-gradient(to bottom right, #235587, #0b0c10);
   background-color: #235587;
-  -webkit-clip-path: polygon(4% 6%, 96% 12%, 96% 69%, 4% 63%);
-          clip-path: polygon(4% 6%, 96% 12%, 96% 69%, 4% 63%);
-  height: 100vh;
+  -webkit-clip-path: polygon(4% 9%, 96% 17%, 96% 100%, 4% 92%);
+          clip-path: polygon(4% 9%, 96% 17%, 96% 100%, 4% 92%);
+  height: 70%;
+}
+
+.box-two {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#235587), to(#0b0c10));
+  background-image: linear-gradient(to bottom right, #235587, #0b0c10);
+  background-color: #235587;
+  -webkit-clip-path: polygon(4% 5%, 96% 19%, 96% 80%, 4% 80%);
+          clip-path: polygon(4% 5%, 96% 19%, 96% 80%, 4% 80%);
+  height: 40%;
+  -webkit-transform: translate(0, -15%);
+          transform: translate(0, -15%);
 }
 
 .header-image {
   width: 100%;
   -webkit-transform: translate(0%, 10%);
           transform: translate(0%, 10%);
-  -webkit-clip-path: polygon(7% 1%, 93% 9%, 93% 87%, 7% 79%);
-          clip-path: polygon(7% 1%, 93% 9%, 93% 87%, 7% 79%);
+  -webkit-clip-path: polygon(7% 1%, 93% 9%, 93% 89%, 7% 81%);
+          clip-path: polygon(7% 1%, 93% 9%, 93% 89%, 7% 81%);
 }
 
 .text-box {
@@ -224,12 +264,5 @@ body {
   .heading-primary .heading-primary-sub {
     font-size: 3rem;
   }
-}
-
-.heading-primary .bottom-header {
-  background-color: #235587;
-  -webkit-clip-path: polygon(0 69%, 100% 86%, 100% 100%, 0% 100%);
-          clip-path: polygon(0 69%, 100% 86%, 100% 100%, 0% 100%);
-  height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */
