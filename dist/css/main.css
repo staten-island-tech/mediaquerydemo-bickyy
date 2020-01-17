@@ -273,11 +273,11 @@ html {
 
 .ia-container {
   width: 42.8125rem;
-  margin: 2rem auto;
+  margin: 3rem auto;
   overflow: hidden;
   -webkit-box-shadow: 0.0623rem 0.0623rem 0.25rem rgba(0, 0, 0, 0.08);
           box-shadow: 0.0623rem 0.0623rem 0.25rem rgba(0, 0, 0, 0.08);
-  border: 7px solid rgba(255, 255, 255, 0.6);
+  border: 7px solid #ffffff;
 }
 
 .ia-container figure {
@@ -441,6 +441,12 @@ figure {
 
 .main {
   font-family: 'Open Sans Condensed','Arial Narrow', serif;
+  height: 100vh;
+  position: relative;
+}
+
+.accord {
+  height: 10%;
 }
 
 html {
