@@ -60,13 +60,13 @@
 .flip-card-front {
     border-radius: 2rem 2rem 2rem 2rem ; 
 }
-.little-italy {
+.restaurant-class {
     border-radius: 2rem 2rem 2rem 2rem ; 
     position: relative; 
 }
 
 .layer {
-    background-color: rgba(color(fade), .25);
+    background-color: rgba(color(fade), .3);
     position: absolute;
     top: 0;
     left: 0;
@@ -92,6 +92,7 @@
     font-style: italic;
     font-family: 'Kaushan Script', cursive;
     font-family: 'Bad Script', cursive;
+    font-weight: 800;
 }
 
 .flip-card-back {
