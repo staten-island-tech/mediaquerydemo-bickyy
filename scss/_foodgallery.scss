@@ -11,8 +11,61 @@
     }
 }
 
+.food-gallery-gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; //whatever the size (100 rem) it removes the space around the pic which is 30 rem each of 3 photos and the last 10 is spaced out)//
+    align-items: center;
+    margin: 0 auto;
+}
+
 .food-gallery-header {
     font-size: 5rem;
     color: color(primary-light);
-    
 }
+
+.flip-card {
+    width: 30rem;
+    height: 30rem;
+    perspective: 90rem; //what does this do
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;  
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    border-radius: 8rem 8rem 8rem 8rem ; 
+}
+.little-italy {
+    border-radius: 8rem 8rem 8rem 8rem ; 
+}
+.flip-card-back {
+    background-color: lightblue;
+    color: color(primary);
+    transform: rotateY(180deg);
+    border-radius: 8rem 8rem 8rem 8rem ; 
+    width: 30rem;
+    height: 30rem;
+    font-size: 170%;
+}
+
+
