@@ -24,9 +24,7 @@
 .food-gallery-header {
     font-size: 5rem;
     color: color(primary-light);
-    margin: -1rem; 
-    font-family: 'Kaushan Script', cursive;
-    font-family: 'Bad Script', cursive;
+    margin: 1rem; 
 }
 
 .flip-card {
@@ -66,7 +64,7 @@
 }
 
 .layer {
-    background-color: rgba(color(fade), .25);
+    background-color: rgba(color(fade), .2);
     position: absolute;
     top: 0;
     left: 0;
@@ -85,15 +83,12 @@
 
 .name-of-restaurant {
     position: absolute;
-    top: 35%;
+    top: 0;
     left: 0;
     width: 100%;
-    font-size: 1.5rem;
-    font-style: italic;
-    font-family: 'Kaushan Script', cursive;
-    font-family: 'Bad Script', cursive;
+    height: 100%;
+    font-size: 170%;
 }
-
 .flip-card-back {
     background-color: lightblue;
     color: color(primary);
