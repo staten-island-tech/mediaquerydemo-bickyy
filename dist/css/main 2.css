@@ -97,7 +97,7 @@
 
 .user-gallery-gallery .flip-card-back {
   background-color: lightblue;
-  color: #f7f7ce;
+  color: #fefee1;
   font-size: 170%;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
@@ -151,7 +151,7 @@ html {
 }
 
 body {
-  background-color: #f7f7ce;
+  background-color: #fefee1;
 }
 
 .header {
