@@ -227,6 +227,8 @@ html {
 .restaurant-class {
   border-radius: 2rem 2rem 2rem 2rem;
   position: relative;
+  width: 25rem;
+  height: 25rem;
 }
 
 .layer {
