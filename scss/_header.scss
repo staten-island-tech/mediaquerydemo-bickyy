@@ -1,0 +1,89 @@
+@import "_variables.scss";
+@import "_fonts.scss";
+@import "_foodgallery.scss";
+
+html {
+  font-size: 55%;
+  /* @include desktop {
+    font-size: 70%;
+  } */
+}
+body {
+  background-color: color(primary);
+  margin: 0;
+}
+
+
+.header {
+  position: relative;
+  height: 100vh;
+
+  // clip-path: polygon(0% 5%, 100% 12%, 100% 69%, 0% 63%);
+  // background-position: top;
+  // background-size: cover;
+} 
+
+  .box-one {
+    background-image: linear-gradient(to bottom right, color(primary-light), color(black));
+    background-color: rgba(color(primary-light), 1);
+    clip-path: polygon(4% 9%, 96% 17%, 96% 100%, 4% 92%);
+    height: 70%;
+  }
+
+  .box-two {
+    background-image: linear-gradient(to bottom right, color(primary-light), color(black));
+    background-color: rgba(color(primary-light), 1);
+    clip-path: polygon(4% 5%, 96% 19%, 96% 80%, 4% 80%);
+    height: 40%;
+    transform: translate(0, -15%);
+  }
+  //the space the first header takes 
+
+  .header-image {
+    width: 100%;
+    transform: translate(0%, 10%);
+    clip-path: polygon(7% 1%, 93% 9%, 93% 89%, 7% 81%);
+    // clip-path: polygon(0% 0%, 100% 10%, 100% 87%, 0% 79%);
+  }
+  
+    .text-box {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    //where the text all goes 
+  }
+  .heading-primary {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 100vw;
+    text-align: center;
+    //all the transformations for text
+
+    .heading-primary-main {
+      font-size: 4rem;
+      text-shadow: .15rem .15rem color(white);
+      letter-spacing: .5rem;
+      padding: 1rem;
+      @include tablet {
+        font-size: 6rem;
+        letter-spacing: 1.8rem;
+      }
+      @include laptop {
+        font-size: 10rem;
+        letter-spacing: 1rem;
+      }
+    }
+    //where NEW YORK goes 
+    .heading-primary-sub {
+      font-size: 1.5rem;
+      text-shadow: .15rem .15rem color(black);
+      color: color(white);
+      @include laptop {
+        font-size: 3rem;
+      //where explore the city goes 
+      }
+    }
+  }

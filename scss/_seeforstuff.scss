@@ -1,0 +1,94 @@
+// @import "_variables.scss";
+
+// .user-gallery {
+//     display: flex; 
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     height: 100vh;
+//     @include laptop{
+//         height: 100vh;
+//     }
+// }
+
+// .user-gallery-header {
+//     font-size: 2rem;
+//     color: color(primary-light); 
+//     text-transform: uppercase;
+   
+//     @include tablet {
+//         font-size: 3rem;
+//     }
+//     @include laptop {
+//         font-size: 4rem; 
+//     }
+//     @include desktop {
+//         font-size: 5rem;
+//     }
+// }
+
+// .user-gallery-gallery{
+//     width: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-around; //whatever the size (100 rem) it removes the space around the pic which is 30 rem each of 3 photos and the last 10 is spaced out)//
+//     align-items: center;
+//     margin: 0 auto;
+
+
+//     .flip-card {
+//     background-color: transparent;
+//     width: 30rem;
+//     height: 30rem;
+//   }
+  
+//   .flip-card-inner {
+//     position: relative;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+//     transition: transform 0.6s;
+//     transform-style: preserve-3d;
+//     z-index: 1;
+    
+//   }
+  
+//   .flip-card:hover .flip-card-inner {
+//     transform: rotateY(180deg);
+//   }
+  
+//   .flip-card-front, .flip-card-back {
+//     position: absolute ;
+//     width: 100%;
+//     height: 100%;
+//     backface-visibility: hidden;
+//   }
+  
+//   .flip-card-back {
+//     background-color: lightblue;
+//     color: color(primary);
+//     font-size: 170%;
+//     transform: rotateY(180deg);    
+//     border-radius: 8rem 8rem 8rem 0 ; 
+//     z-index: 0;
+//   }
+
+//     @include laptop {
+//         height: 60%;
+//         width: 90%;
+//         flex-direction: row; 
+//     }
+//     .user-gallery-image {
+//         width: 90%;
+//         padding: 1rem;
+//         @include laptop {
+//             height: 30rem;
+//             width: auto;
+//         }
+//     }
+//     .user-gallery-image {
+//         border-radius: 8rem 8rem 8rem 0 ; 
+//         width: 30rem;
+//         height: 30rem;
+//     }
+// }
