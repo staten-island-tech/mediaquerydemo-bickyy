@@ -85,7 +85,7 @@
     left: 0;
 }
 
-.name-of-restaurant {
+.name-of-place {
     position: absolute;
     top: 35%;
     left: 0;
@@ -94,7 +94,16 @@
     font-style: italic;
     font-family: 'Kaushan Script', cursive;
     font-family: 'Bad Script', cursive;
-    font-weight: 800;
+}
+
+.name-of-place-border-left {
+    clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
+    background-color: rgba(color(white), .5);
+}
+
+.name-of-place-border-right {
+    clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
+    background-color: rgba(color(white), .5);
 }
 
 .flip-card-back {

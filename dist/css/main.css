@@ -114,7 +114,7 @@ html {
   left: 0;
 }
 
-.name-of-restaurant {
+.name-of-place {
   position: absolute;
   top: 35%;
   left: 0;
@@ -123,7 +123,18 @@ html {
   font-style: italic;
   font-family: 'Kaushan Script', cursive;
   font-family: 'Bad Script', cursive;
-  font-weight: 800;
+}
+
+.name-of-place-border-left {
+  -webkit-clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
+          clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.name-of-place-border-right {
+  -webkit-clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
+          clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .flip-card-back {
@@ -263,7 +274,7 @@ html {
   left: 0;
 }
 
-.name-of-restaurant {
+.name-of-place {
   position: absolute;
   top: 35%;
   left: 0;
@@ -272,7 +283,18 @@ html {
   font-style: italic;
   font-family: 'Kaushan Script', cursive;
   font-family: 'Bad Script', cursive;
-  font-weight: 800;
+}
+
+.name-of-place-border-left {
+  -webkit-clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
+          clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.name-of-place-border-right {
+  -webkit-clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
+          clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .flip-card-back {
@@ -298,6 +320,8 @@ html {
 
 html {
   font-size: 55%;
+  margin: 0;
+  padding: 0;
   /* @include desktop {
     font-size: 70%;
   } */
@@ -326,8 +350,8 @@ body {
   background-image: -webkit-gradient(linear, left top, right bottom, from(#235587), to(#0b0c10));
   background-image: linear-gradient(to bottom right, #235587, #0b0c10);
   background-color: #235587;
-  -webkit-clip-path: polygon(4% 5%, 96% 19%, 96% 80%, 4% 80%);
-          clip-path: polygon(4% 5%, 96% 19%, 96% 80%, 4% 80%);
+  -webkit-clip-path: polygon(30% 0%, 90% 0%, 70% 100%, 10% 100%);
+          clip-path: polygon(30% 0%, 90% 0%, 70% 100%, 10% 100%);
   height: 40%;
   -webkit-transform: translate(0, -15%);
           transform: translate(0, -15%);
