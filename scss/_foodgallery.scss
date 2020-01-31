@@ -122,5 +122,22 @@
 }
 
 .rest-name {
-    margin: -3rem
+    margin: -3rem;
+    text-decoration: none;
 }
+
+a:link {
+ color: color(primary-light);
+} 
+
+a:visited {
+    color: color(primary-dark-blue);
+} 
+
+a:hover {
+    color: color(primary-light-blue);
+}
+
+a:active {
+    color: color(primary-blue);
+} 

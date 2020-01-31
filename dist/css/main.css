@@ -156,6 +156,23 @@ html {
 
 .rest-name {
   margin: -3rem;
+  text-decoration: none;
+}
+
+a:link {
+  color: #235587;
+}
+
+a:visited {
+  color: #092d50;
+}
+
+a:hover {
+  color: #607c97;
+}
+
+a:active {
+  color: lightblue;
 }
 
 html {
@@ -316,6 +333,23 @@ html {
 
 .rest-name {
   margin: -3rem;
+  text-decoration: none;
+}
+
+a:link {
+  color: #235587;
+}
+
+a:visited {
+  color: #092d50;
+}
+
+a:hover {
+  color: #607c97;
+}
+
+a:active {
+  color: lightblue;
 }
 
 html {
@@ -350,8 +384,8 @@ body {
   background-image: -webkit-gradient(linear, left top, right bottom, from(#235587), to(#0b0c10));
   background-image: linear-gradient(to bottom right, #235587, #0b0c10);
   background-color: #235587;
-  -webkit-clip-path: polygon(30% 0%, 90% 0%, 70% 100%, 10% 100%);
-          clip-path: polygon(30% 0%, 90% 0%, 70% 100%, 10% 100%);
+  -webkit-clip-path: polygon(4% 5%, 96% 19%, 96% 80%, 4% 80%);
+          clip-path: polygon(4% 5%, 96% 19%, 96% 80%, 4% 80%);
   height: 40%;
   -webkit-transform: translate(0, -15%);
           transform: translate(0, -15%);

@@ -35,7 +35,7 @@ body {
   .box-two {
     background-image: linear-gradient(to bottom right, color(primary-light), color(black));
     background-color: rgba(color(primary-light), 1);
-    clip-path: polygon(30% 0%, 90% 0%, 70% 100%, 10% 100%);
+    clip-path: polygon(4% 5%, 96% 19%, 96% 80%, 4% 80%);
     height: 40%;
     transform: translate(0, -15%);
   }
