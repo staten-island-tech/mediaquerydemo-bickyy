@@ -121,23 +121,20 @@
     outline-offset: -2rem;
 }
 
-.rest-name {
-    margin: -3rem;
-    text-decoration: none;
-}
-
 a:link {
- color: color(primary-light);
+    color: color(primary-light);
+    text-decoration: none;    
 } 
 
 a:visited {
     color: color(primary-dark-blue);
 } 
 
-a:hover {
-    color: color(primary-light-blue);
+.name-of-restaurants {
+    margin: -2rem;
 }
 
-a:active {
-    color: color(primary-blue);
-} 
+.name-of-each-restaurants {
+    margin: 1rem;
+    font-size: 1.3rem;
+}

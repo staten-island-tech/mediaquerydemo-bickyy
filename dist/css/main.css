@@ -154,25 +154,22 @@ html {
   outline-offset: -2rem;
 }
 
-.rest-name {
-  margin: -3rem;
-  text-decoration: none;
-}
-
 a:link {
   color: #235587;
+  text-decoration: none;
 }
 
 a:visited {
   color: #092d50;
 }
 
-a:hover {
-  color: #607c97;
+.name-of-restaurants {
+  margin: -2rem;
 }
 
-a:active {
-  color: lightblue;
+.name-of-each-restaurants {
+  margin: 1rem;
+  font-size: 1.3rem;
 }
 
 html {
@@ -331,25 +328,22 @@ html {
   outline-offset: -2rem;
 }
 
-.rest-name {
-  margin: -3rem;
-  text-decoration: none;
-}
-
 a:link {
   color: #235587;
+  text-decoration: none;
 }
 
 a:visited {
   color: #092d50;
 }
 
-a:hover {
-  color: #607c97;
+.name-of-restaurants {
+  margin: -2rem;
 }
 
-a:active {
-  color: lightblue;
+.name-of-each-restaurants {
+  margin: 1rem;
+  font-size: 1.3rem;
 }
 
 html {
