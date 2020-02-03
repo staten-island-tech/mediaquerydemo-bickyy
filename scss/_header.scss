@@ -30,6 +30,15 @@ body {
     background-color: rgba(color(primary-light), 1);
     clip-path: polygon(4% 9%, 96% 17%, 96% 100%, 4% 92%);
     height: 70%;
+    @include tablet {
+      height: 97%;
+    }
+    @include laptop {
+      clip-path: polygon(0% 2%, 100% 15%, 100% 100%, 0% 100%);
+    }
+    @include laptop {
+      clip-path: polygon(0% 0%, 100% 10%, 100% 95%, 0% 95%);
+    }
   }
 
   .box-two {
@@ -38,6 +47,12 @@ body {
     clip-path: polygon(4% 5%, 96% 19%, 96% 80%, 4% 80%);
     height: 40%;
     transform: translate(0, -15%);
+    @include tablet {
+      height: 0;
+    }
+    @include laptop {
+      height: 0;
+    }
   }
   //the space the first header takes 
 
@@ -45,7 +60,17 @@ body {
     width: 100%;
     transform: translate(0%, 10%);
     clip-path: polygon(7% 1%, 93% 9%, 93% 89%, 7% 81%);
-    // clip-path: polygon(0% 0%, 100% 10%, 100% 87%, 0% 79%);
+    @include tablet {
+      clip-path: polygon(7% 1%, 93% 8%, 93% 76%, 7% 69%);
+      transform: translate(0%, 8.5%);
+    }
+    @include laptop {
+      transform: translate(0%, -20%);
+      clip-path: polygon(0% 21.5%, 100% 27%, 100% 60%, 0% 60%);
+    }
+    @include desktop {
+      clip-path: polygon(0% 21.5%, 100% 26.5%, 100% 60%, 0% 60%);
+    }
   }
   
     .text-box {
@@ -54,6 +79,15 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    @include tablet {
+      transform: translate(-50%, 30%);
+    }
+    @include laptop {
+      transform: translate(-75%, 30%);
+    }
+    @include desktop {
+      transform: translate(-75%, -10%);
+    }
     //where the text all goes 
   }
   .heading-primary {
