@@ -60,6 +60,7 @@ body {
     width: 100%;
     transform: translate(0%, 10%);
     clip-path: polygon(7% 1%, 93% 9%, 93% 89%, 7% 81%);
+    image-rendering: crisp-edges;
     @include tablet {
       clip-path: polygon(7% 1%, 93% 8%, 93% 76%, 7% 69%);
       transform: translate(0%, 8.5%);

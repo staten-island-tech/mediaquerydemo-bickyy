@@ -168,8 +168,14 @@ a:visited {
 }
 
 .name-of-each-restaurants {
-  margin: 1rem;
+  margin: .4rem;
   font-size: 1.3rem;
+}
+
+.skyline-image {
+  height: 85%;
+  -webkit-transform: translate(0%, -36%);
+          transform: translate(0%, -36%);
 }
 
 html {
@@ -342,8 +348,14 @@ a:visited {
 }
 
 .name-of-each-restaurants {
-  margin: 1rem;
+  margin: .4rem;
   font-size: 1.3rem;
+}
+
+.skyline-image {
+  height: 85%;
+  -webkit-transform: translate(0%, -36%);
+          transform: translate(0%, -36%);
 }
 
 html {
@@ -423,6 +435,7 @@ body {
           transform: translate(0%, 10%);
   -webkit-clip-path: polygon(7% 1%, 93% 9%, 93% 89%, 7% 81%);
           clip-path: polygon(7% 1%, 93% 9%, 93% 89%, 7% 81%);
+  image-rendering: crisp-edges;
 }
 
 @media (min-width: 600px) {
