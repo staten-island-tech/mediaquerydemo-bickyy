@@ -45,20 +45,6 @@ html {
       justify-content: space-around;
 }
 
-@media (min-width: 600px) {
-  .food-gallery-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-}
-
 @media (min-width: 900px) {
   .food-gallery-container {
     display: -webkit-box;
@@ -73,7 +59,7 @@ html {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1600px) {
   .food-gallery-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -101,6 +87,27 @@ html {
   -webkit-perspective: 90rem;
           perspective: 90rem;
   margin: 1rem;
+}
+
+@media (min-width: 600px) {
+  .flip-card {
+    width: 32rem;
+    height: 32rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .flip-card {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .flip-card {
+    width: 45rem;
+    height: 45rem;
+  }
 }
 
 .flip-card-inner {
@@ -138,6 +145,27 @@ html {
   position: relative;
   width: 25rem;
   height: 25rem;
+}
+
+@media (min-width: 600px) {
+  .restaurant-class {
+    width: 32rem;
+    height: 32rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .restaurant-class {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .restaurant-class {
+    width: 45rem;
+    height: 45rem;
+  }
 }
 
 .layer {
@@ -197,6 +225,27 @@ html {
   font-family: 'Bad Script', cursive;
   outline: 0.25rem solid #ffffff;
   outline-offset: -2rem;
+}
+
+@media (min-width: 600px) {
+  .flip-card-back {
+    width: 32rem;
+    height: 32rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .flip-card-back {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .flip-card-back {
+    width: 45rem;
+    height: 45rem;
+  }
 }
 
 a:link {
@@ -270,20 +319,6 @@ html {
       justify-content: space-around;
 }
 
-@media (min-width: 600px) {
-  .food-gallery-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-}
-
 @media (min-width: 900px) {
   .food-gallery-container {
     display: -webkit-box;
@@ -298,7 +333,7 @@ html {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1600px) {
   .food-gallery-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -326,6 +361,27 @@ html {
   -webkit-perspective: 90rem;
           perspective: 90rem;
   margin: 1rem;
+}
+
+@media (min-width: 600px) {
+  .flip-card {
+    width: 32rem;
+    height: 32rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .flip-card {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .flip-card {
+    width: 45rem;
+    height: 45rem;
+  }
 }
 
 .flip-card-inner {
@@ -363,6 +419,27 @@ html {
   position: relative;
   width: 25rem;
   height: 25rem;
+}
+
+@media (min-width: 600px) {
+  .restaurant-class {
+    width: 32rem;
+    height: 32rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .restaurant-class {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .restaurant-class {
+    width: 45rem;
+    height: 45rem;
+  }
 }
 
 .layer {
@@ -422,6 +499,27 @@ html {
   font-family: 'Bad Script', cursive;
   outline: 0.25rem solid #ffffff;
   outline-offset: -2rem;
+}
+
+@media (min-width: 600px) {
+  .flip-card-back {
+    width: 32rem;
+    height: 32rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .flip-card-back {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .flip-card-back {
+    width: 45rem;
+    height: 45rem;
+  }
 }
 
 a:link {
@@ -525,7 +623,6 @@ body {
           transform: translate(0%, 10%);
   -webkit-clip-path: polygon(7% 1%, 93% 9%, 93% 89%, 7% 81%);
           clip-path: polygon(7% 1%, 93% 9%, 93% 89%, 7% 81%);
-  image-rendering: crisp-edges;
 }
 
 @media (min-width: 600px) {
@@ -546,7 +643,7 @@ body {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1600px) {
   .header-image {
     -webkit-clip-path: polygon(0% 21.5%, 100% 26.5%, 100% 60%, 0% 60%);
             clip-path: polygon(0% 21.5%, 100% 26.5%, 100% 60%, 0% 60%);
@@ -576,7 +673,7 @@ body {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1600px) {
   .text-box {
     -webkit-transform: translate(-75%, -10%);
             transform: translate(-75%, -10%);
