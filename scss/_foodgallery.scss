@@ -46,7 +46,8 @@
     width: 25rem;
     height: 25rem;
     perspective: 150rem; //what does this do
-    margin: 1rem;    
+    margin: 1rem;  
+  
     @include tablet {
         width: 32rem;
         height: 32rem;
@@ -70,7 +71,6 @@
   transition: transform 0.8s;
   transform-style: preserve-3d; 
   backface-visibility: hidden;
- 
 }
 
 .flip-card:hover .flip-card-inner {
