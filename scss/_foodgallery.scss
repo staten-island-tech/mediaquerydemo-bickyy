@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 90vh;
+    height: 80vh;
     @include laptop {
         display: flex;
         flex-direction: row;
