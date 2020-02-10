@@ -43,7 +43,7 @@ html {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 80vh;
+  height: 90vh;
 }
 
 @media (min-width: 900px) {
@@ -328,7 +328,7 @@ html {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 80vh;
+  height: 90vh;
 }
 
 @media (min-width: 900px) {
