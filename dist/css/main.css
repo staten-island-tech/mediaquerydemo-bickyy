@@ -19,12 +19,6 @@ html {
   height: 100vh;
 }
 
-@media (min-width: 900px) {
-  .food-gallery {
-    height: 100vh;
-  }
-}
-
 .food-gallery-gallery {
   width: 100%;
   -webkit-box-align: center;
@@ -82,6 +76,12 @@ html {
   font-family: 'Bad Script', cursive;
 }
 
+@media (min-width: 1600px) {
+  .food-gallery-header {
+    margin: 4rem;
+  }
+}
+
 .flip-card {
   width: 25rem;
   height: 25rem;
@@ -99,8 +99,8 @@ html {
 
 @media (min-width: 900px) {
   .flip-card {
-    width: 35rem;
-    height: 35rem;
+    width: 32rem;
+    height: 32rem;
   }
 }
 
@@ -159,8 +159,8 @@ html {
 
 @media (min-width: 900px) {
   .restaurant-class {
-    width: 35rem;
-    height: 35rem;
+    width: 32rem;
+    height: 32rem;
   }
 }
 
@@ -247,8 +247,8 @@ html {
 
 @media (min-width: 900px) {
   .flip-card-back {
-    width: 35rem;
-    height: 35rem;
+    width: 32rem;
+    height: 32rem;
   }
 }
 
@@ -277,10 +277,52 @@ a:visited {
   font-size: 1.3rem;
 }
 
+@media (min-width: 600px) {
+  .name-of-each-restaurants {
+    font-size: 1.9rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .name-of-each-restaurants {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .name-of-each-restaurants {
+    font-size: 2.6rem;
+  }
+}
+
 .skyline-image {
   height: 85%;
   -webkit-transform: translate(0%, -36%);
           transform: translate(0%, -36%);
+}
+
+@media (min-width: 600px) {
+  .skyline-image {
+    height: 90%;
+    -webkit-transform: translate(0%, -34%);
+            transform: translate(0%, -34%);
+  }
+}
+
+@media (min-width: 900px) {
+  .skyline-image {
+    height: 90%;
+    -webkit-transform: translate(0%, -30%);
+            transform: translate(0%, -30%);
+  }
+}
+
+@media (min-width: 1600px) {
+  .skyline-image {
+    height: 90%;
+    -webkit-transform: translate(0%, -36%);
+            transform: translate(0%, -36%);
+  }
 }
 
 html {
@@ -304,12 +346,6 @@ html {
   height: 100vh;
 }
 
-@media (min-width: 900px) {
-  .food-gallery {
-    height: 100vh;
-  }
-}
-
 .food-gallery-gallery {
   width: 100%;
   -webkit-box-align: center;
@@ -367,6 +403,12 @@ html {
   font-family: 'Bad Script', cursive;
 }
 
+@media (min-width: 1600px) {
+  .food-gallery-header {
+    margin: 4rem;
+  }
+}
+
 .flip-card {
   width: 25rem;
   height: 25rem;
@@ -384,8 +426,8 @@ html {
 
 @media (min-width: 900px) {
   .flip-card {
-    width: 35rem;
-    height: 35rem;
+    width: 32rem;
+    height: 32rem;
   }
 }
 
@@ -444,8 +486,8 @@ html {
 
 @media (min-width: 900px) {
   .restaurant-class {
-    width: 35rem;
-    height: 35rem;
+    width: 32rem;
+    height: 32rem;
   }
 }
 
@@ -532,8 +574,8 @@ html {
 
 @media (min-width: 900px) {
   .flip-card-back {
-    width: 35rem;
-    height: 35rem;
+    width: 32rem;
+    height: 32rem;
   }
 }
 
@@ -562,10 +604,52 @@ a:visited {
   font-size: 1.3rem;
 }
 
+@media (min-width: 600px) {
+  .name-of-each-restaurants {
+    font-size: 1.9rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .name-of-each-restaurants {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .name-of-each-restaurants {
+    font-size: 2.6rem;
+  }
+}
+
 .skyline-image {
   height: 85%;
   -webkit-transform: translate(0%, -36%);
           transform: translate(0%, -36%);
+}
+
+@media (min-width: 600px) {
+  .skyline-image {
+    height: 90%;
+    -webkit-transform: translate(0%, -34%);
+            transform: translate(0%, -34%);
+  }
+}
+
+@media (min-width: 900px) {
+  .skyline-image {
+    height: 90%;
+    -webkit-transform: translate(0%, -30%);
+            transform: translate(0%, -30%);
+  }
+}
+
+@media (min-width: 1600px) {
+  .skyline-image {
+    height: 90%;
+    -webkit-transform: translate(0%, -36%);
+            transform: translate(0%, -36%);
+  }
 }
 
 html {

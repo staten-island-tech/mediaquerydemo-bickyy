@@ -6,9 +6,6 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    @include laptop{
-        height: 100vh;
-    }
 }
 
 .food-gallery-gallery {
@@ -40,6 +37,9 @@
     margin: -1rem; 
     font-family: 'Kaushan Script', cursive;
     font-family: 'Bad Script', cursive;
+    @include desktop {
+        margin: 4rem;        
+    }
 }
 
 .flip-card {
@@ -47,14 +47,13 @@
     height: 25rem;
     perspective: 150rem; //what does this do
     margin: 1rem;  
-  
     @include tablet {
         width: 32rem;
         height: 32rem;
       }
       @include laptop {
-        width: 35rem;
-        height: 35rem;
+        width: 32rem;
+        height: 32rem;
       }
       @include desktop {
         width: 45rem;
@@ -97,8 +96,8 @@
         height: 32rem;
       }
       @include laptop {
-        width: 35rem;
-        height: 35rem;
+        width: 32rem;
+        height: 32rem;
       }
       @include desktop {
         width: 45rem;
@@ -168,8 +167,8 @@
         height: 32rem;
       }
       @include laptop {
-        width: 35rem;
-        height: 35rem;
+        width: 32rem;
+        height: 32rem;
       }
       @include desktop {
         width: 45rem;
@@ -193,9 +192,31 @@ a:visited {
 .name-of-each-restaurants {
     margin: .4rem;
     font-size: 1.3rem;
+      
+    @include tablet {
+       font-size: 1.9rem;
+      }
+      @include laptop {
+        font-size: 1.7rem;
+      }
+      @include desktop {
+        font-size: 2.6rem;
+      }
 }
 
 .skyline-image {
     height: 85%;
     transform: translate(0%, -36%);
+    @include tablet {
+        height: 90%;
+        transform: translate(0%, -34%);       
+    }
+       @include laptop {
+        height: 90%;
+        transform: translate(0%, -30%);      
+    }
+       @include desktop {
+        height: 90%;
+        transform: translate(0%, -36%);
+    }
 }
