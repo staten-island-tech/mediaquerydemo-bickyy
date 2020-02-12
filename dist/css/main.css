@@ -135,8 +135,6 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
 }
 
 .flip-card-front {
@@ -201,8 +199,6 @@ html {
   font-style: italic;
   font-family: 'Kaushan Script', cursive;
   font-family: 'Bad Script', cursive;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
 }
 
 .name-of-place-border-left {
@@ -462,8 +458,6 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
 }
 
 .flip-card-front {
@@ -528,8 +522,6 @@ html {
   font-style: italic;
   font-family: 'Kaushan Script', cursive;
   font-family: 'Bad Script', cursive;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
 }
 
 .name-of-place-border-left {
