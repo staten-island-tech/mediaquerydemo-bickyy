@@ -51,6 +51,7 @@ html {
             flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    height: 45vh;
   }
 }
 
@@ -374,6 +375,7 @@ html {
             flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    height: 45vh;
   }
 }
 
@@ -830,131 +832,32 @@ body {
   overflow: hidden;
   -webkit-box-shadow: 0.0623rem 0.0623rem 0.25rem rgba(0, 0, 0, 0.08);
           box-shadow: 0.0623rem 0.0623rem 0.25rem rgba(0, 0, 0, 0.08);
-  border: 7px solid rgba(255, 255, 255, 0.6);
+  border: 7px solid #0b0c10;
   width: 90%;
 }
 
-.ia-container figure {
-  position: absolute;
-  top: 0;
-  left: 3.123rem;
-  width: 20.9375rem;
-  -webkit-box-shadow: 0 0 0 0.0623rem rgba(255, 255, 255, 0.6);
-          box-shadow: 0 0 0 0.0623rem rgba(255, 255, 255, 0.6);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+@media (min-width: 600px) {
+  .ia-container {
+    width: 49%;
+  }
 }
 
-.ia-container > figure {
-  position: relative;
-  left: 0 !important;
+@media (min-width: 900px) {
+  .ia-container {
+    width: 40%;
+  }
 }
 
-.ia-container img {
-  display: block;
-  width: 100%;
-}
-
-.ia-container input {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 3.125rem;
-  height: 100%;
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
-  opacity: 0;
-  z-index: 100;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-.ia-container input:checked {
-  width: .3125rem;
-  left: auto;
-  right: 0rem;
-}
-
-.ia-container input:checked ~ figure {
-  -webkit-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
-  left: 20.9375rem;
-}
-
-.ia-container figcaption {
-  width: 100%;
-  height: 100%;
-  background: rgba(87, 73, 81, 0.1);
-  position: absolute;
-  top: 0rem;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-.ia-container figcaption span {
-  position: absolute;
-  top: 50%;
-  margin-top: -30px;
-  right: 1.25rem;
-  left: 1.25rem;
-  overflow: hidden;
-  text-align: center;
-  background: rgba(87, 73, 81, 0.3);
-  line-height: 1.25rem;
-  font-size: 1.125rem;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
-  opacity: 0;
-  text-transform: uppercase;
-  letter-spacing: .25rem;
-  font-weight: 700;
-  padding: 1.25rem;
-  color: #fff;
-  text-shadow: 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.1);
-}
-
-.ia-container input:checked + figcaption,
-.ia-container input:checked:hover + figcaption {
-  background: rgba(87, 73, 81, 0);
-}
-
-.ia-container input:checked + figcaption span {
-  -webkit-transition: all 0.4s ease-in-out 0.5s;
-  transition: all 0.4s ease-in-out 0.5s;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
-  filter: alpha(opacity=99);
-  opacity: 1;
-  top: 50%;
-}
-
-.ia-container #ia-selector-last:checked + figcaption span {
-  -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s;
-}
-
-.ia-container input:hover + figcaption {
-  background: rgba(87, 73, 81, 0.03);
-}
-
-.ia-container input:checked ~ figure input {
-  z-index: 1;
-}
-
-figure {
-  margin: 0;
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
+@media (min-width: 1600px) {
+  .ia-container {
+    width: 80%;
+  }
 }
 
 .accordian {
   font-family: 'Open Sans Condensed','Arial Narrow', serif;
   height: 100vh;
+  color: #0b0c10;
 }
 
 #wrapper {
@@ -969,7 +872,27 @@ figure {
   letter-spacing: .5rem;
   text-align: center;
   display: table;
-  border-bottom: .2rem solid #000;
+  border-bottom: 0.2rem solid #0b0c10;
+}
+
+@media (min-width: 600px) {
+  .accordian-text-header {
+    font-size: 300%;
+    margin: 7% auto 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .accordian-text-header {
+    font-size: 300%;
+    margin: 5% auto 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .accordian-text-header {
+    font-size: 500%;
+  }
 }
 
 .title-of-accordian-text {
@@ -983,7 +906,6 @@ figure {
 }
 
 .blur-for-accordian-text {
-  color: rgba(48, 69, 92, 0.8);
   font-size: 17px;
   line-height: 26px;
   letter-spacing: 1px;
@@ -1011,7 +933,7 @@ ul li {
   margin: 0;
   padding-bottom: 4px;
   padding-top: 18px;
-  border-top: 1px dotted #dce7eb;
+  border-top: 1px dotted #0b0c10;
 }
 
 ul li i {
@@ -1025,7 +947,7 @@ ul li i {
 ul li i:before, ul li i:after {
   content: "";
   position: absolute;
-  background-color: black;
+  background-color: #0b0c10;
   width: 3px;
   height: 16px;
 }
