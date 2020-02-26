@@ -231,8 +231,6 @@ html {
           backface-visibility: hidden;
   font-family: 'Kaushan Script', cursive;
   font-family: 'Bad Script', cursive;
-  outline: 0.25rem solid #ffffff;
-  outline-offset: -2rem;
 }
 
 @media (min-width: 600px) {
@@ -256,6 +254,16 @@ html {
   }
 }
 
+.outline-back {
+  width: 99%;
+  height: 99%;
+  outline: 0.25rem solid #ffffff;
+  outline-offset: -2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 a:link {
   color: #235587;
   text-decoration: none;
@@ -276,7 +284,7 @@ a:visited {
 
 @media (min-width: 600px) {
   .name-of-each-restaurants {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -294,21 +302,21 @@ a:visited {
 
 .skyline-image {
   height: 85%;
-  -webkit-transform: translate(0%, -36%);
-          transform: translate(0%, -36%);
+  -webkit-transform: translate(0%, -31%);
+          transform: translate(0%, -31%);
 }
 
 @media (min-width: 600px) {
   .skyline-image {
-    height: 90%;
-    -webkit-transform: translate(0%, -34%);
-            transform: translate(0%, -34%);
+    height: 88%;
+    -webkit-transform: translate(0%, -32%);
+            transform: translate(0%, -32%);
   }
 }
 
 @media (min-width: 900px) {
   .skyline-image {
-    height: 90%;
+    height: 88%;
     -webkit-transform: translate(0%, -30%);
             transform: translate(0%, -30%);
   }
@@ -555,8 +563,6 @@ html {
           backface-visibility: hidden;
   font-family: 'Kaushan Script', cursive;
   font-family: 'Bad Script', cursive;
-  outline: 0.25rem solid #ffffff;
-  outline-offset: -2rem;
 }
 
 @media (min-width: 600px) {
@@ -580,6 +586,16 @@ html {
   }
 }
 
+.outline-back {
+  width: 99%;
+  height: 99%;
+  outline: 0.25rem solid #ffffff;
+  outline-offset: -2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 a:link {
   color: #235587;
   text-decoration: none;
@@ -600,7 +616,7 @@ a:visited {
 
 @media (min-width: 600px) {
   .name-of-each-restaurants {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -618,21 +634,21 @@ a:visited {
 
 .skyline-image {
   height: 85%;
-  -webkit-transform: translate(0%, -36%);
-          transform: translate(0%, -36%);
+  -webkit-transform: translate(0%, -31%);
+          transform: translate(0%, -31%);
 }
 
 @media (min-width: 600px) {
   .skyline-image {
-    height: 90%;
-    -webkit-transform: translate(0%, -34%);
-            transform: translate(0%, -34%);
+    height: 88%;
+    -webkit-transform: translate(0%, -32%);
+            transform: translate(0%, -32%);
   }
 }
 
 @media (min-width: 900px) {
   .skyline-image {
-    height: 90%;
+    height: 88%;
     -webkit-transform: translate(0%, -30%);
             transform: translate(0%, -30%);
   }
@@ -838,13 +854,13 @@ body {
 
 @media (min-width: 600px) {
   .ia-container {
-    width: 49%;
+    width: 90%;
   }
 }
 
 @media (min-width: 900px) {
   .ia-container {
-    width: 40%;
+    width: 90%;
   }
 }
 

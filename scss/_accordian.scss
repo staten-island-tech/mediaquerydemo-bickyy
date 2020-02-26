@@ -8,10 +8,10 @@
 	border: 7px solid color(black);
 	width: 90%;
     @include tablet {
-		width: 49%;
+		width: 90%;
       }
       @include laptop {
-		width: 40%;
+		width: 90%;
       }
       @include desktop {
 		width: 80%;

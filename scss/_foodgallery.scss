@@ -158,8 +158,6 @@
     backface-visibility: hidden;
     font-family: 'Kaushan Script', cursive;
     font-family: 'Bad Script', cursive;
-    outline: .25rem solid color(white) ;
-    outline-offset: -2rem;
     
     @include tablet {
         width: 32rem;
@@ -173,6 +171,15 @@
         width: 45rem;
         height: 45rem;
       }
+}
+.outline-back{
+    width: 99%;
+    height: 99%;
+    outline: .25rem solid color(white) ;
+    outline-offset: -2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 a:link {
@@ -193,7 +200,7 @@ a:visited {
     font-size: 1rem;
       
     @include tablet {
-       font-size: 1.9rem;
+       font-size: 1.8rem;
       }
       @include laptop {
         font-size: 1.7rem;
@@ -205,13 +212,13 @@ a:visited {
 
 .skyline-image {
     height: 85%;
-    transform: translate(0%, -36%);
+    transform: translate(0%, -31%);
     @include tablet {
-        height: 90%;
-        transform: translate(0%, -34%);       
+        height: 88%;
+        transform: translate(0%, -32%);       
     }
        @include laptop {
-        height: 90%;
+        height: 88%;
         transform: translate(0%, -30%);      
     }
        @include desktop {
