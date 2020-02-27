@@ -11,9 +11,17 @@ html {
   } */
 }
 body {
-  background-color: color(primary);
+  background-color: color(black);
   margin: 0;
 }
+
+.stars {
+  position:absolute;
+  display:block;
+  z-index:0;
+  height: 100%;
+  width: 100%;
+} 
 
 
 .header {
