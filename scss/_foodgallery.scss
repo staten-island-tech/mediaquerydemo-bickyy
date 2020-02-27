@@ -91,6 +91,8 @@
     position: relative; 
     width: 25rem;
     height: 25rem;
+    filter: grayscale(40%);
+    
     @include tablet {
         width: 32rem;
         height: 32rem;
@@ -149,8 +151,8 @@
 }
 
 .flip-card-back {
-    background-color: rgba(color(primary-blue), .5);
-    color: color(primary-light);
+    background-color: rgba(color(white), .8);
+    color: color(black);
     transform: rotateY(180deg);
     border-radius: 2rem 2rem 2rem 2rem ; 
     width: 25rem;
@@ -176,7 +178,7 @@
 .outline-back{
     width: 99%;
     height: 99%;
-    outline: .25rem solid color(white) ;
+    outline: .25rem solid color(black) ;
     outline-offset: -2rem;
     position: absolute;
     top: 0;
@@ -184,7 +186,7 @@
 }
 
 a:link {
-    color: color(primary-light);
+    color: color(primary-light-blue);
     text-decoration: none;    
 } 
 
@@ -212,14 +214,14 @@ a:visited {
 }
 
 .skyline-image {
-    height: 85%;
+    height: 86%;
     transform: translate(-1%, -36%);
     @include tablet {
-        height: 88%;
+        height: 89%;
         transform: translate(0%, -32%);       
     }
        @include laptop {
-        height: 88%;
+        height: 89%;
         transform: translate(0%, -30%);      
     }
        @include desktop {
