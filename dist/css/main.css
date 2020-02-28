@@ -1226,9 +1226,9 @@ ul li input[type=checkbox]:checked ~ i:after {
 @media (min-width: 1024px) {
   .orchid {
     height: 30rem;
-    width: 50rem;
-    -webkit-transform: translate(-25%, 0%);
-            transform: translate(-25%, 0%);
+    width: 70rem;
+    -webkit-transform: translate(-10%, 0%);
+            transform: translate(-10%, 0%);
   }
 }
 
@@ -1261,9 +1261,9 @@ ul li input[type=checkbox]:checked ~ i:after {
 @media (min-width: 1024px) {
   .governors-island {
     height: 30rem;
-    width: 50rem;
-    -webkit-transform: translate(25%, 0%);
-            transform: translate(25%, 0%);
+    width: 70rem;
+    -webkit-transform: translate(10%, 0%);
+            transform: translate(10%, 0%);
   }
 }
 /*# sourceMappingURL=main.css.map */
