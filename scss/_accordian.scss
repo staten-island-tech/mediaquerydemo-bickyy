@@ -7,14 +7,18 @@
 	box-shadow: .0623rem .0623rem .25rem rgba(0,0,0,0.08);
 	border: 7px solid color(white);
 	width: 90%;
+	height: 85rem;
     @include tablet {
 		width: 90%;
+		height: 100rem;
       }
       @include laptop {
 		width: 90%;
+		height: 90rem;
       }
       @include desktop {
 		width: 80%;
+		height: 75rem;
       }
 }
 

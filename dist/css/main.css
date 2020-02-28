@@ -51,7 +51,7 @@ html {
             flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    height: 45vh;
+    height: 90vh;
   }
 }
 
@@ -66,20 +66,7 @@ html {
             flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-  }
-}
-
-.food-gallery-header {
-  font-size: 5rem;
-  color: #ffffff;
-  margin: -1rem;
-  font-family: 'Kaushan Script', cursive;
-  font-family: 'Bad Script', cursive;
-}
-
-@media (min-width: 1600px) {
-  .food-gallery-header {
-    margin: 4rem;
+    height: 90vh;
   }
 }
 
@@ -93,15 +80,15 @@ html {
 
 @media (min-width: 600px) {
   .flip-card {
-    width: 32rem;
+    width: 70rem;
     height: 32rem;
   }
 }
 
 @media (min-width: 900px) {
   .flip-card {
-    width: 32rem;
-    height: 32rem;
+    width: 50rem;
+    height: 80rem;
   }
 }
 
@@ -142,6 +129,24 @@ html {
   border-radius: 2rem 2rem 2rem 2rem;
 }
 
+@media (min-width: 600px) {
+  .flip-card-front {
+    border-radius: 0 0 0 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .flip-card-front {
+    border-radius: 0 0 0 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .flip-card-front {
+    border-radius: 0 0 0 0;
+  }
+}
+
 .restaurant-class {
   border-radius: 2rem 2rem 2rem 2rem;
   position: relative;
@@ -153,15 +158,17 @@ html {
 
 @media (min-width: 600px) {
   .restaurant-class {
-    width: 32rem;
+    width: 70rem;
     height: 32rem;
+    border-radius: 0 0 0 0;
   }
 }
 
 @media (min-width: 900px) {
   .restaurant-class {
-    width: 32rem;
-    height: 32rem;
+    width: 50rem;
+    height: 80rem;
+    border-radius: 0 0 0 0;
   }
 }
 
@@ -169,6 +176,7 @@ html {
   .restaurant-class {
     width: 45rem;
     height: 45rem;
+    border-radius: 0 0 0 0;
   }
 }
 
@@ -180,6 +188,24 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 2rem 2rem 2rem 2rem;
+}
+
+@media (min-width: 600px) {
+  .layer {
+    border-radius: 0 0 0 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .layer {
+    border-radius: 0 0 0 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .layer {
+    border-radius: 0 0 0 0;
+  }
 }
 
 .outline {
@@ -196,7 +222,7 @@ html {
 
 .name-of-place {
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 0;
   width: 100%;
   font-size: 1.5rem;
@@ -205,10 +231,16 @@ html {
   font-family: 'Bad Script', cursive;
 }
 
+@media (min-width: 900px) {
+  .name-of-place {
+    top: 20%;
+  }
+}
+
 .name-of-place-border-left {
   -webkit-clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
           clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
@@ -238,15 +270,17 @@ html {
 
 @media (min-width: 600px) {
   .flip-card-back {
-    width: 32rem;
+    width: 70rem;
     height: 32rem;
+    border-radius: 0 0 0 0;
   }
 }
 
 @media (min-width: 900px) {
   .flip-card-back {
-    width: 32rem;
-    height: 32rem;
+    width: 50rem;
+    height: 80rem;
+    border-radius: 0 0 0 0;
   }
 }
 
@@ -254,6 +288,7 @@ html {
   .flip-card-back {
     width: 45rem;
     height: 45rem;
+    border-radius: 0 0 0 0;
   }
 }
 
@@ -300,36 +335,6 @@ a:visited {
 @media (min-width: 1600px) {
   .name-of-each-restaurants {
     font-size: 2.6rem;
-  }
-}
-
-.skyline-image {
-  height: 86%;
-  -webkit-transform: translate(-1%, -36%);
-          transform: translate(-1%, -36%);
-}
-
-@media (min-width: 600px) {
-  .skyline-image {
-    height: 89%;
-    -webkit-transform: translate(0%, -32%);
-            transform: translate(0%, -32%);
-  }
-}
-
-@media (min-width: 900px) {
-  .skyline-image {
-    height: 89%;
-    -webkit-transform: translate(0%, -30%);
-            transform: translate(0%, -30%);
-  }
-}
-
-@media (min-width: 1600px) {
-  .skyline-image {
-    height: 90%;
-    -webkit-transform: translate(0%, -36%);
-            transform: translate(0%, -36%);
   }
 }
 
@@ -386,7 +391,7 @@ html {
             flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    height: 45vh;
+    height: 90vh;
   }
 }
 
@@ -401,20 +406,7 @@ html {
             flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-  }
-}
-
-.food-gallery-header {
-  font-size: 5rem;
-  color: #ffffff;
-  margin: -1rem;
-  font-family: 'Kaushan Script', cursive;
-  font-family: 'Bad Script', cursive;
-}
-
-@media (min-width: 1600px) {
-  .food-gallery-header {
-    margin: 4rem;
+    height: 90vh;
   }
 }
 
@@ -428,15 +420,15 @@ html {
 
 @media (min-width: 600px) {
   .flip-card {
-    width: 32rem;
+    width: 70rem;
     height: 32rem;
   }
 }
 
 @media (min-width: 900px) {
   .flip-card {
-    width: 32rem;
-    height: 32rem;
+    width: 50rem;
+    height: 80rem;
   }
 }
 
@@ -477,6 +469,24 @@ html {
   border-radius: 2rem 2rem 2rem 2rem;
 }
 
+@media (min-width: 600px) {
+  .flip-card-front {
+    border-radius: 0 0 0 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .flip-card-front {
+    border-radius: 0 0 0 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .flip-card-front {
+    border-radius: 0 0 0 0;
+  }
+}
+
 .restaurant-class {
   border-radius: 2rem 2rem 2rem 2rem;
   position: relative;
@@ -488,15 +498,17 @@ html {
 
 @media (min-width: 600px) {
   .restaurant-class {
-    width: 32rem;
+    width: 70rem;
     height: 32rem;
+    border-radius: 0 0 0 0;
   }
 }
 
 @media (min-width: 900px) {
   .restaurant-class {
-    width: 32rem;
-    height: 32rem;
+    width: 50rem;
+    height: 80rem;
+    border-radius: 0 0 0 0;
   }
 }
 
@@ -504,6 +516,7 @@ html {
   .restaurant-class {
     width: 45rem;
     height: 45rem;
+    border-radius: 0 0 0 0;
   }
 }
 
@@ -515,6 +528,24 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 2rem 2rem 2rem 2rem;
+}
+
+@media (min-width: 600px) {
+  .layer {
+    border-radius: 0 0 0 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .layer {
+    border-radius: 0 0 0 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .layer {
+    border-radius: 0 0 0 0;
+  }
 }
 
 .outline {
@@ -531,7 +562,7 @@ html {
 
 .name-of-place {
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 0;
   width: 100%;
   font-size: 1.5rem;
@@ -540,10 +571,16 @@ html {
   font-family: 'Bad Script', cursive;
 }
 
+@media (min-width: 900px) {
+  .name-of-place {
+    top: 20%;
+  }
+}
+
 .name-of-place-border-left {
   -webkit-clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
           clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
@@ -573,15 +610,17 @@ html {
 
 @media (min-width: 600px) {
   .flip-card-back {
-    width: 32rem;
+    width: 70rem;
     height: 32rem;
+    border-radius: 0 0 0 0;
   }
 }
 
 @media (min-width: 900px) {
   .flip-card-back {
-    width: 32rem;
-    height: 32rem;
+    width: 50rem;
+    height: 80rem;
+    border-radius: 0 0 0 0;
   }
 }
 
@@ -589,6 +628,7 @@ html {
   .flip-card-back {
     width: 45rem;
     height: 45rem;
+    border-radius: 0 0 0 0;
   }
 }
 
@@ -635,36 +675,6 @@ a:visited {
 @media (min-width: 1600px) {
   .name-of-each-restaurants {
     font-size: 2.6rem;
-  }
-}
-
-.skyline-image {
-  height: 86%;
-  -webkit-transform: translate(-1%, -36%);
-          transform: translate(-1%, -36%);
-}
-
-@media (min-width: 600px) {
-  .skyline-image {
-    height: 89%;
-    -webkit-transform: translate(0%, -32%);
-            transform: translate(0%, -32%);
-  }
-}
-
-@media (min-width: 900px) {
-  .skyline-image {
-    height: 89%;
-    -webkit-transform: translate(0%, -30%);
-            transform: translate(0%, -30%);
-  }
-}
-
-@media (min-width: 1600px) {
-  .skyline-image {
-    height: 90%;
-    -webkit-transform: translate(0%, -36%);
-            transform: translate(0%, -36%);
   }
 }
 
@@ -864,23 +874,27 @@ body {
           box-shadow: 0.0623rem 0.0623rem 0.25rem rgba(0, 0, 0, 0.08);
   border: 7px solid #ffffff;
   width: 90%;
+  height: 85rem;
 }
 
 @media (min-width: 600px) {
   .ia-container {
     width: 90%;
+    height: 100rem;
   }
 }
 
 @media (min-width: 900px) {
   .ia-container {
     width: 90%;
+    height: 90rem;
   }
 }
 
 @media (min-width: 1600px) {
   .ia-container {
     width: 80%;
+    height: 75rem;
   }
 }
 
@@ -1038,26 +1052,98 @@ ul li input[type=checkbox]:checked ~ i:after {
 }
 
 .secret-box-one {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  margin: auto;
+}
+
+@media (min-width: 600px) {
+  .secret-box-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .secret-box-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 2rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .secret-box-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 1rem;
+  }
 }
 
 .secret-box-two {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  margin: auto;
+}
+
+@media (min-width: 600px) {
+  .secret-box-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .secret-box-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 2rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .secret-box-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 10rem;
+  }
 }
 
 .secret-left {
   -webkit-filter: grayscale(40%);
           filter: grayscale(40%);
+  height: 25vh;
+  width: 40vh;
+}
+
+@media (min-width: 600px) {
+  .secret-left {
+    height: 40vh;
+    width: 40vh;
+    margin-left: 3rem;
+  }
 }
 
 @media (min-width: 900px) {
@@ -1079,7 +1165,17 @@ ul li input[type=checkbox]:checked ~ i:after {
 .secret-right {
   -webkit-filter: grayscale(40%);
           filter: grayscale(40%);
+  height: 25vh;
+  width: 40vh;
   z-index: 0;
+}
+
+@media (min-width: 600px) {
+  .secret-right {
+    height: 40vh;
+    width: 40vh;
+    margin-right: 3rem;
+  }
 }
 
 @media (min-width: 900px) {
@@ -1101,11 +1197,22 @@ ul li input[type=checkbox]:checked ~ i:after {
 .orchid {
   background-color: gray;
   margin: auto;
+  height: 25vh;
+  width: 40vh;
+}
+
+@media (min-width: 600px) {
+  .orchid {
+    height: 35rem;
+    width: 30rem;
+    -webkit-transform: translate(-1%, 0%);
+            transform: translate(-1%, 0%);
+  }
 }
 
 @media (min-width: 900px) {
   .orchid {
-    height: 25rem;
+    height: 35rem;
     width: 45rem;
     -webkit-transform: translate(-15%, 0%);
             transform: translate(-15%, 0%);
@@ -1123,11 +1230,22 @@ ul li input[type=checkbox]:checked ~ i:after {
   background-color: gray;
   margin: auto;
   z-index: 1;
+  height: 25vh;
+  width: 40vh;
+}
+
+@media (min-width: 600px) {
+  .governors-island {
+    height: 35rem;
+    width: 30rem;
+    -webkit-transform: translate(1%, 0%);
+            transform: translate(1%, 0%);
+  }
 }
 
 @media (min-width: 900px) {
   .governors-island {
-    height: 25rem;
+    height: 35rem;
     width: 45rem;
     -webkit-transform: translate(15%, 0%);
             transform: translate(15%, 0%);

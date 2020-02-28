@@ -23,23 +23,13 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        height: 45vh;
+        height: 90vh;
     }
     @include desktop {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-    }
-}
-
-.food-gallery-header {
-    font-size: 5rem;
-    color: color(white);
-    margin: -1rem; 
-    font-family: 'Kaushan Script', cursive;
-    font-family: 'Bad Script', cursive;
-    @include desktop {
-        margin: 4rem;        
+        height: 90vh;
     }
 }
 
@@ -49,12 +39,12 @@
     perspective: 150rem; //what does this do
     margin: 1rem;  
     @include tablet {
-        width: 32rem;
+        width: 70rem;
         height: 32rem;
       }
       @include laptop {
-        width: 32rem;
-        height: 32rem;
+        width: 50rem;
+        height: 80rem;
       }
       @include desktop {
         width: 45rem;
@@ -85,7 +75,17 @@
 
 .flip-card-front {
     border-radius: 2rem 2rem 2rem 2rem ; 
+    @include tablet {
+        border-radius: 0 0 0 0 ; 
+    }
+    @include laptop {
+        border-radius: 0 0 0 0 ; 
+    }
+    @include desktop {
+        border-radius: 0 0 0 0 ; 
+    }
 }
+
 .restaurant-class {
     border-radius: 2rem 2rem 2rem 2rem ; 
     position: relative; 
@@ -94,16 +94,19 @@
     filter: grayscale(40%);
     
     @include tablet {
-        width: 32rem;
+        width: 70rem;
         height: 32rem;
+        border-radius: 0 0 0 0 ; 
       }
       @include laptop {
-        width: 32rem;
-        height: 32rem;
+        width: 50rem;
+        height: 80rem;
+        border-radius: 0 0 0 0 ; 
       }
       @include desktop {
         width: 45rem;
         height: 45rem;
+        border-radius: 0 0 0 0 ; 
       }
 }
 
@@ -115,6 +118,15 @@
     width: 100%;
     height: 100%;
     border-radius: 2rem 2rem 2rem 2rem ; 
+    @include tablet {
+        border-radius: 0 0 0 0 ; 
+    }
+    @include laptop {
+        border-radius: 0 0 0 0 ; 
+    }
+    @include desktop {
+        border-radius: 0 0 0 0 ; 
+    }
 }
 .outline {
     width: 99%;
@@ -129,18 +141,21 @@
 
 .name-of-place {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 0;
     width: 100%;
     font-size: 1.5rem;
     font-style: italic;
     font-family: 'Kaushan Script', cursive;
     font-family: 'Bad Script', cursive;
+    @include laptop {
+        top: 20%
+    }
 }
 
 .name-of-place-border-left {
     clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
-    background-color: rgba(color(white), .5);
+    background-color: rgba(color(white), .7);
     backface-visibility: hidden;
 }
 
@@ -163,16 +178,19 @@
     font-family: 'Bad Script', cursive;
     
     @include tablet {
-        width: 32rem;
+        width: 70rem;
         height: 32rem;
+        border-radius: 0 0 0 0 ; 
       }
       @include laptop {
-        width: 32rem;
-        height: 32rem;
+        width: 50rem;
+        height: 80rem;
+        border-radius: 0 0 0 0 ; 
       }
       @include desktop {
         width: 45rem;
         height: 45rem;
+        border-radius: 0 0 0 0 ; 
       }
 }
 .outline-back{
@@ -210,22 +228,5 @@ a:visited {
       }
       @include desktop {
         font-size: 2.6rem;
-      }
-}
-
-.skyline-image {
-    height: 86%;
-    transform: translate(-1%, -36%);
-    @include tablet {
-        height: 89%;
-        transform: translate(0%, -32%);       
-    }
-       @include laptop {
-        height: 89%;
-        transform: translate(0%, -30%);      
-    }
-       @include desktop {
-        height: 90%;
-        transform: translate(0%, -36%);
     }
 }
