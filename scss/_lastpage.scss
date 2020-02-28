@@ -1,0 +1,20 @@
+@import "_variables.scss";
+
+.end-photo {
+    width: 100%;
+    margin: 3rem 0rem 0rem 0rem;   
+    z-index: 0;
+    position: absolute;
+}    
+
+.conclusion {
+    height: 150rems;
+    width: 50%;
+    background-color: rgba(color(black), .8);
+    z-index: 1;
+    @include laptop {
+        height: 93%;
+        transform: translate(-7%, 0%);        
+        clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
+    }
+}
