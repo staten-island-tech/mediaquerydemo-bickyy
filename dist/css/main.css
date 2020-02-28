@@ -1022,4 +1022,70 @@ ul li input[type=checkbox]:checked ~ i:after {
   -webkit-transform: translate(-2px, 0) rotate(-45deg);
           transform: translate(-2px, 0) rotate(-45deg);
 }
+
+.secret {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.secret-box-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.secret-box-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.secret-left {
+  -webkit-filter: grayscale(40%);
+          filter: grayscale(40%);
+  margin: 1rem;
+  margin-left: 15%;
+}
+
+@media (min-width: 900px) {
+  .secret-left {
+    height: 40vh;
+    width: 60vh;
+  }
+}
+
+.secret-right {
+  -webkit-filter: grayscale(40%);
+          filter: grayscale(40%);
+  margin: 1rem;
+  margin-right: 15%;
+}
+
+@media (min-width: 900px) {
+  .secret-right {
+    height: 40vh;
+    width: 60vh;
+  }
+}
+
+.orchid {
+  background-color: white;
+  height: 20rem;
+  width: 50rem;
+}
 /*# sourceMappingURL=main.css.map */
