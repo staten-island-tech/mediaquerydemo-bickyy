@@ -55,7 +55,7 @@ html {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .food-gallery-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -92,10 +92,10 @@ html {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .flip-card {
     width: 45rem;
-    height: 45rem;
+    height: 70rem;
   }
 }
 
@@ -141,7 +141,7 @@ html {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .flip-card-front {
     border-radius: 0 0 0 0;
   }
@@ -172,10 +172,10 @@ html {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .restaurant-class {
     width: 45rem;
-    height: 45rem;
+    height: 70rem;
     border-radius: 0 0 0 0;
   }
 }
@@ -202,7 +202,7 @@ html {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .layer {
     border-radius: 0 0 0 0;
   }
@@ -284,10 +284,10 @@ html {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .flip-card-back {
     width: 45rem;
-    height: 45rem;
+    height: 70rem;
     border-radius: 0 0 0 0;
   }
 }
@@ -332,7 +332,7 @@ a:visited {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .name-of-each-restaurants {
     font-size: 2.6rem;
   }
@@ -395,7 +395,7 @@ html {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .food-gallery-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -432,10 +432,10 @@ html {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .flip-card {
     width: 45rem;
-    height: 45rem;
+    height: 70rem;
   }
 }
 
@@ -481,7 +481,7 @@ html {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .flip-card-front {
     border-radius: 0 0 0 0;
   }
@@ -512,10 +512,10 @@ html {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .restaurant-class {
     width: 45rem;
-    height: 45rem;
+    height: 70rem;
     border-radius: 0 0 0 0;
   }
 }
@@ -542,7 +542,7 @@ html {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .layer {
     border-radius: 0 0 0 0;
   }
@@ -624,10 +624,10 @@ html {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .flip-card-back {
     width: 45rem;
-    height: 45rem;
+    height: 70rem;
     border-radius: 0 0 0 0;
   }
 }
@@ -672,7 +672,7 @@ a:visited {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .name-of-each-restaurants {
     font-size: 2.6rem;
   }
@@ -722,15 +722,19 @@ body {
 
 @media (min-width: 900px) {
   .box-one {
-    -webkit-clip-path: polygon(0% 2%, 100% 15%, 100% 100%, 0% 100%);
-            clip-path: polygon(0% 2%, 100% 15%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 95%, 0% 85%);
+            clip-path: polygon(0% 0%, 100% 10%, 100% 95%, 0% 85%);
+    background-image: none;
+    background-color: transparent;
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .box-one {
-    -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 95%, 0% 95%);
-            clip-path: polygon(0% 0%, 100% 10%, 100% 95%, 0% 95%);
+    -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 80%);
+            clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 80%);
+    background-image: none;
+    background-color: transparent;
   }
 }
 
@@ -783,7 +787,7 @@ body {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .header-image {
     -webkit-clip-path: polygon(0% 21.5%, 100% 26.5%, 100% 60%, 0% 60%);
             clip-path: polygon(0% 21.5%, 100% 26.5%, 100% 60%, 0% 60%);
@@ -813,7 +817,7 @@ body {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .text-box {
     -webkit-transform: translate(-75%, -10%);
             transform: translate(-75%, -10%);
@@ -891,7 +895,7 @@ body {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .ia-container {
     width: 80%;
     height: 75rem;
@@ -933,7 +937,7 @@ body {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .accordian-text-header {
     font-size: 500%;
   }
@@ -1079,7 +1083,7 @@ ul li input[type=checkbox]:checked ~ i:after {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .secret-box-one {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1119,7 +1123,7 @@ ul li input[type=checkbox]:checked ~ i:after {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .secret-box-two {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1127,7 +1131,7 @@ ul li input[type=checkbox]:checked ~ i:after {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    margin: 10rem;
+    margin: 1rem;
   }
 }
 
@@ -1154,11 +1158,11 @@ ul li input[type=checkbox]:checked ~ i:after {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .secret-left {
-    height: 40vh;
-    width: 60vh;
-    margin-left: 10%;
+    height: 45vh;
+    width: 70vh;
+    margin-left: 8%;
   }
 }
 
@@ -1186,11 +1190,11 @@ ul li input[type=checkbox]:checked ~ i:after {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .secret-right {
-    height: 40vh;
-    width: 60vh;
-    margin-right: 10%;
+    height: 45vh;
+    width: 70vh;
+    margin-right: 8%;
   }
 }
 
@@ -1219,10 +1223,12 @@ ul li input[type=checkbox]:checked ~ i:after {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .orchid {
-    height: 25rem;
-    width: 37rem;
+    height: 30rem;
+    width: 50rem;
+    -webkit-transform: translate(-25%, 0%);
+            transform: translate(-25%, 0%);
   }
 }
 
@@ -1252,10 +1258,12 @@ ul li input[type=checkbox]:checked ~ i:after {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
   .governors-island {
-    height: 25rem;
-    width: 37rem;
+    height: 30rem;
+    width: 50rem;
+    -webkit-transform: translate(25%, 0%);
+            transform: translate(25%, 0%);
   }
 }
 /*# sourceMappingURL=main.css.map */

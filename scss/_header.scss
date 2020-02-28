@@ -42,10 +42,14 @@ body {
       height: 97%;
     }
     @include laptop {
-      clip-path: polygon(0% 2%, 100% 15%, 100% 100%, 0% 100%);
+      clip-path: polygon(0% 0%, 100% 10%, 100% 95%, 0% 85%);     
+      background-image: none;
+      background-color: transparent;
     }
-    @include laptop {
-      clip-path: polygon(0% 0%, 100% 10%, 100% 95%, 0% 95%);
+    @include desktop {
+      clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 80%);     
+      background-image: none;
+      background-color: transparent;
     }
   }
 
