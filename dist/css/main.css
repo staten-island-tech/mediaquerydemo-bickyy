@@ -1208,72 +1208,74 @@ ul li input[type=checkbox]:checked ~ i:after {
 }
 
 .orchid {
-  background-color: gray;
   margin: auto;
-  height: 25vh;
   width: 40vh;
   z-index: 0;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
 }
 
 @media (min-width: 600px) {
   .orchid {
-    height: 35rem;
     width: 30rem;
     -webkit-transform: translate(-1%, 0%);
             transform: translate(-1%, 0%);
+    font-size: 2rem;
   }
 }
 
 @media (min-width: 900px) {
   .orchid {
-    height: 35rem;
     width: 45rem;
     -webkit-transform: translate(2%, 0%);
             transform: translate(2%, 0%);
+    font-size: 3rem;
   }
 }
 
 @media (min-width: 1440px) {
   .orchid {
-    height: 30rem;
     width: 70rem;
     -webkit-transform: translate(-10%, 0%);
             transform: translate(-10%, 0%);
+    font-size: 3rem;
   }
 }
 
 .governors-island {
-  background-color: gray;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
   margin: auto;
   z-index: 0;
-  height: 25vh;
   width: 40vh;
 }
 
 @media (min-width: 600px) {
   .governors-island {
-    height: 35rem;
     width: 30rem;
     -webkit-transform: translate(1%, 0%);
             transform: translate(1%, 0%);
+    font-size: 2rem;
   }
 }
 
 @media (min-width: 900px) {
   .governors-island {
-    height: 35rem;
     width: 45rem;
     -webkit-transform: translate(-1%, 0%);
             transform: translate(-1%, 0%);
+    font-size: 3rem;
   }
 }
 
 @media (min-width: 1440px) {
   .governors-island {
-    height: 30rem;
     width: 70rem;
     -webkit-transform: translate(10%, 0%);
             transform: translate(10%, 0%);
+    font-size: 3rem;
   }
 }
 
