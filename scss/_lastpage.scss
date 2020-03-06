@@ -1,20 +1,69 @@
 @import "_variables.scss";
 
-.end-photo {
-    width: 100%;
-    margin: 3rem 0rem 0rem 0rem;   
-    z-index: 0;
-    position: absolute;
-}    
-
-.conclusion {
-    height: 150rems;
-    width: 50%;
-    background-color: rgba(color(black), .8);
-    z-index: 1;
-    @include laptop {
-        height: 93%;
-        transform: translate(-7%, 0%);        
-        clip-path: polygon(10% 0%, 70% 0%, 90% 100%, 30% 100%);
+.footer-distributed {
+    background-color: black;
+    font-size: 1rem;
+    padding: 2rem 2rem;
+    margin-top: 1rem;
+    @include tablet {
+        font-size: 1rem;
     }
-}
+    @include laptop {
+        font-size: 2rem;
+    }
+    @include desktop {
+        font-size: 2rem;
+    }
+  }
+  
+  .footer-distributed .footer-left p {
+    color: white;
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .footer-distributed p.footer-links {
+    font-size: 1.2rem;
+    font-weight:bold;
+    color: white;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 1.2rem;
+    left: 0;
+    color: white;
+    display: inline-block;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  .footer-distributed .footer-right {
+    float: right;
+  }
+  
+  .footer-distributed .footer-right a {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    text-align: center;
+    line-height: 2.2rem;
+    transition:all .25s;
+  }
+  
+  .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+  
+  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+  

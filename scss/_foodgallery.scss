@@ -43,7 +43,7 @@
         height: 32rem;
       }
       @include laptop {
-        width: 50rem;
+        width: 40rem;
         height: 80rem;
       }
       @include desktop {
@@ -99,7 +99,7 @@
         border-radius: 0 0 0 0 ; 
       }
       @include laptop {
-        width: 50rem;
+        width: 40rem;
         height: 80rem;
         border-radius: 0 0 0 0 ; 
       }
@@ -183,7 +183,7 @@
         border-radius: 0 0 0 0 ; 
       }
       @include laptop {
-        width: 50rem;
+        width: 40rem;
         height: 80rem;
         border-radius: 0 0 0 0 ; 
       }
