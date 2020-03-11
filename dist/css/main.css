@@ -313,28 +313,26 @@ a:visited {
 }
 
 .name-of-restaurants {
-  margin: -2rem;
-}
-
-.name-of-each-restaurants {
-  margin: .4rem;
-  font-size: 1.2rem;
+  margin: -3rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  font-size: 1rem;
 }
 
 @media (min-width: 600px) {
-  .name-of-each-restaurants {
+  .name-of-restaurants {
     font-size: 1.8rem;
   }
 }
 
 @media (min-width: 900px) {
-  .name-of-each-restaurants {
-    font-size: 1.7rem;
+  .name-of-restaurants {
+    font-size: 2.5rem;
   }
 }
 
 @media (min-width: 1440px) {
-  .name-of-each-restaurants {
+  .name-of-restaurants {
     font-size: 2.6rem;
   }
 }
@@ -653,28 +651,26 @@ a:visited {
 }
 
 .name-of-restaurants {
-  margin: -2rem;
-}
-
-.name-of-each-restaurants {
-  margin: .4rem;
-  font-size: 1.2rem;
+  margin: -3rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  font-size: 1rem;
 }
 
 @media (min-width: 600px) {
-  .name-of-each-restaurants {
+  .name-of-restaurants {
     font-size: 1.8rem;
   }
 }
 
 @media (min-width: 900px) {
-  .name-of-each-restaurants {
-    font-size: 1.7rem;
+  .name-of-restaurants {
+    font-size: 2.5rem;
   }
 }
 
 @media (min-width: 1440px) {
-  .name-of-each-restaurants {
+  .name-of-restaurants {
     font-size: 2.6rem;
   }
 }

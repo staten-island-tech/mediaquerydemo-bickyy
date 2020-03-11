@@ -213,20 +213,19 @@ a:visited {
 } 
 
 .name-of-restaurants {
-    margin: -2rem;
-}
-
-.name-of-each-restaurants {
-    margin: .4rem;
-    font-size: 1.2rem;
-      
+    margin: -3rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    font-size: 1rem;
     @include tablet {
-       font-size: 1.8rem;
-      }
-      @include laptop {
-        font-size: 1.7rem;
-      }
-      @include desktop {
-        font-size: 2.6rem;
-    }
-}
+        font-size: 1.8rem;
+       }
+       @include laptop {
+         font-size: 2.5rem;
+       }
+       @include desktop {
+         font-size: 2.6rem;
+     }
+ }
+
+
