@@ -36,7 +36,7 @@
 .flip-card {
     width: 25rem;
     height: 25rem;
-    perspective: 150rem; //what does this do
+    perspective: 150rem; 
     margin: 1rem;  
     @include tablet {
         width: 70rem;
@@ -201,28 +201,26 @@
     left: 0;
 }
 
-a:link {
-    color: color(primary-light-blue);
-    text-decoration: none;    
-} 
-
-a:visited {
-    color: color(primary-dark-blue);
-} 
-
 .name-of-restaurants {
-    margin: -3rem;
+    margin: -2rem;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
     font-size: 1rem;
+    line-height: 2rem;
     @include tablet {
         font-size: 1.8rem;
+        line-height: 5rem;
+        margin-top: 1rem;
        }
        @include laptop {
          font-size: 2.5rem;
+         line-height: 4rem;
+         margin-top: .5rem;
        }
        @include desktop {
          font-size: 2.6rem;
+         line-height: 4rem;
+         margin-top: .5rem;
      }
  }
 
