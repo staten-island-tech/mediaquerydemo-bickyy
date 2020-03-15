@@ -1062,14 +1062,29 @@ ul li input[type=checkbox]:checked ~ i:after {
   display: block;
   height: 3.125rem;
   line-height: 3.125rem;
-  font-size: 14px;
+  font-size: 2rem;
   color: white;
   -webkit-transition: all .8s;
   transition: all .8s;
+  text-decoration: none;
 }
 
-.drawer-menu .navigation a:hover {
-  background: #fff;
+@media (min-width: 600px) {
+  .drawer-menu .navigation a {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .drawer-menu .navigation a {
+    font-size: 2.3rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .drawer-menu .navigation a {
+    font-size: 2rem;
+  }
 }
 
 .check {
