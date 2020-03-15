@@ -1,6 +1,6 @@
 @charset "UTF-8";
 html {
-  font-family: 'Public Sans', sans-serif;
+  font-family: 'Open Sans Condensed','Arial Narrow', serif;
 }
 
 .food-gallery {
@@ -265,8 +265,6 @@ html {
   font-size: 170%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  font-family: 'Kaushan Script', cursive;
-  font-family: 'Bad Script', cursive;
 }
 
 @media (min-width: 600px) {
@@ -338,7 +336,7 @@ a:visited {
 }
 
 html {
-  font-family: 'Public Sans', sans-serif;
+  font-family: 'Open Sans Condensed','Arial Narrow', serif;
 }
 
 .food-gallery {
@@ -603,8 +601,6 @@ html {
   font-size: 170%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  font-family: 'Kaushan Script', cursive;
-  font-family: 'Bad Script', cursive;
 }
 
 @media (min-width: 600px) {
